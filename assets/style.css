@@ -32,6 +32,7 @@ body {
 
 .story {
     display: flex;
+    
 }
 .perfil{
     text-align: center;
@@ -43,11 +44,12 @@ body {
     width: 70px;
     height: 70px;
     border-radius: 100%;
+    border: 3px solid rgb(199, 42, 68);
 }
 .perfil p {
     color: var(--text-color);
     font-size: 9px;
-    margin: 0 15px 0 15px;
+    margin: 0 15px 0 8px;
 }
 
 .column {
